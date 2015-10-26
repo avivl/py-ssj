@@ -55,3 +55,8 @@ docs/_build/
 
 # PyBuilder
 target/
+bin/
+include/
+pip-selfcheck.json
+.ropeproject/
+run_me.sh
