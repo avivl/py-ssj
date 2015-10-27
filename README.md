@@ -9,9 +9,13 @@ Slack slash command for Jira server interactions.
 /jira bug - create a bug param: project_id, "summary"
  
 /jira task - create a task param: project_id, "summary"
+
+/jira close - close an issue param: issue id
+
+/jira assign - assign an issue to someone param issue id,assignee/me
 ```
 ## Configuration
-In order for the plugin to work the `JIRA_USER` should have ```Modify Reporter" permission``` 
+In order for the plugin to work the `JIRA_USER` should have ```"Modify Reporter" permission``` 
 
 Use the following enviroment variables:
 
